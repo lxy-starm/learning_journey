@@ -1,6 +1,21 @@
+- [1.Skill的组成与介绍](#1skill的组成与介绍)
+- [2.Skill的设计模式](#2skill的设计模式)
+  - [1)Skill 的目录结构：](#1skill-的目录结构)
+  - [2) 资源层的组织：](#2-资源层的组织)
+- [3.Skill创建流程](#3skill创建流程)
+  - [1）创建 Skill 文件夹](#1创建-skill-文件夹)
+  - [2）编写skill元数据](#2编写skill元数据)
+  - [3）编写skill指令层](#3编写skill指令层)
+  - [4）添加可执行脚本](#4添加可执行脚本)
+- [4.手写Skill vs Skill-creator](#4手写skill-vs-skill-creator)
+  - [4.1 手写Skill的常见问题](#41-手写skill的常见问题)
+  - [4.2 用skill-creator自动创建skill](#42-用skill-creator自动创建skill)
+      - [1） 安装skill-creator](#1-安装skill-creator)
+      - [2）手写vsskill-creator：](#2手写vsskill-creator)
+
 
 # 1.Skill的组成与介绍
-###### 学习摘录笔记来自CSDN<a href="https://blog.csdn.net/weixin_42782643/article/details/157402359">Agent Skills完全指南：核心概念丨设计模式丨实战代码</a>
+ 学习摘录笔记来自CSDN<a href="https://blog.csdn.net/weixin_42782643/article/details/157402359">Agent Skills完全指南：核心概念丨设计模式丨实战代码</a>
 * 1）元数据（Metadata）
 * 2）指令（Instruction）
 * 3）资源（Resource）
@@ -13,7 +28,7 @@
 ![智能体使用skill思路](Agent学习.assets/智能体使用skill思路.png)
 # 2.Skill的设计模式
 
-###### 学习摘录笔记来自CSDN<a href="https://blog.csdn.net/weixin_42782643/article/details/157402359">Agent Skills完全指南：核心概念丨设计模式丨实战代码</a>
+ 学习摘录笔记来自CSDN<a href="https://blog.csdn.net/weixin_42782643/article/details/157402359">Agent Skills完全指南：核心概念丨设计模式丨实战代码</a>
 ![skill目录结构](Agent学习.assets/skill的目录结构.png)
 ## 1)Skill 的目录结构： 
 
@@ -106,7 +121,7 @@ description: 把srt字幕文件转换为markdown笔记
 不要为了凑字数重复表达。
 ```
 ## 4.2 用skill-creator自动创建skill
-###### 笔记来源<a href="https://blog.csdn.net/m0_67275869/article/details/161301540?spm=1001.2014.3001.5506">手把手教你写一个 AI Skill，让 AI 真正学会你的工作流</a>
+ 笔记来源<a href="https://blog.csdn.net/m0_67275869/article/details/161301540?spm=1001.2014.3001.5506">手把手教你写一个 AI Skill，让 AI 真正学会你的工作流</a>
 
 #### 1） 安装skill-creator
 ```
